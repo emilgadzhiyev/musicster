@@ -20,10 +20,11 @@ class SearchBar extends React.Component {
     }
 
     render() {
+        // console.log(this.props.search);
         return (
             <div className="SearchBar">
                 <input onChange={this.handleTermChange} placeholder="Start typing" />
-                <button className="SearchButton">Search</button>
+                <button className="SearchButton" onClick={() => this.props.onSearch(this.state.term)}>Search</button>
             </div>
         )
     }

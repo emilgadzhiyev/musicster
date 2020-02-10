@@ -1,5 +1,5 @@
 const cliendId = '810dd8d1013c413b80b5dadf24b4bd81';
-const redirectUri = 'http://whimsical-control.surge.sh';
+const redirectUri = 'http://localhost:3000';
 let accessToken;
 
 const Spotify = {
